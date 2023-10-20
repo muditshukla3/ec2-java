@@ -37,6 +37,7 @@ variables.tf file contains the script overrides. Make sure to change the followi
 * aws_ec2-ami - AMI id for respective image.
 * aws_ec2_connection_key_name - AWS ec2 instance ssh key pair name.
 * aws_ec2_instance_type - EC2 instance type
+* aws_default_region - AWS region in which EC2 instance will be provisioned.
 
 ### Java 17 Installation
 
