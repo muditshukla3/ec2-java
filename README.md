@@ -15,11 +15,11 @@ Initialize terraform
 ```
 terraform init
 ```
-From the directory issue following command to run the script.
+Once above command runs without any error, run following command to run the script.
 ```
 terraform plan
 ```
-Once the above command works without any error, Issue the following command to provision the ec2 instance.
+Once the above command works without any error, run the following command to provision the ec2 instance.
 
 ```
 terraform apply --auto-approve
