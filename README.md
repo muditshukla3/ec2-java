@@ -15,7 +15,7 @@ Initialize terraform
 ```
 terraform init
 ```
-Once above command runs without any error, run following command to run the script.
+Once above command runs without any error, run following command to make sure there are no errors with the script.
 ```
 terraform plan
 ```
@@ -24,7 +24,7 @@ Once the above command works without any error, run the following command to pro
 ```
 terraform apply --auto-approve
 ```
-Issue the followin command to destroy the ec2 instance.
+Issue the following command to destroy the ec2 instance.
 
 ```
 terraform destroy
